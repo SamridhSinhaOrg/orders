@@ -13,9 +13,8 @@ import java.util.List;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Document("order")
+@Document(collection = "order")
 public class Order {
-
     private Integer orderId;
     private List<FoodItemsDTO> foodItemsList;
     private RestaurantDTO restaurant;
