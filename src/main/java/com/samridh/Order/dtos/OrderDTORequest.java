@@ -10,7 +10,6 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 public class OrderDTORequest {
-
     private List<FoodItemsDTO> foodItemsList;
     private Integer userId;
     private RestaurantDTO restaurant;
